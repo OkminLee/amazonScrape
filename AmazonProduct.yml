@@ -1,0 +1,13 @@
+title:
+    css: span.a-size-large
+    xpath: '//span[contains(concat(" ",normalize-space(@class)," ")," a-size-large ")]'
+    type: Text
+imageUrl:
+    css: 'li.image.itemNo0 div.imgTagWrapper'
+    xpath: '//li[contains(concat(" ",normalize-space(@class)," ")," image ")][contains(concat(" ",normalize-space(@class)," ")," itemNo0 ")]//div[contains(concat(" ",normalize-space(@class)," ")," imgTagWrapper ")]'
+    type: Attribute
+    attribute: id
+images:
+    css: '.imgTagWrapper img'
+    type: Attribute
+    attribute: data-a-dynamic-image
